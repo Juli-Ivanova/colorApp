@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D556BED025054C6A00C2D812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556BECF25054C6A00C2D812 /* AppDelegate.swift */; };
 		D556BED225054C6A00C2D812 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556BED125054C6A00C2D812 /* SceneDelegate.swift */; };
-		D556BED425054C6A00C2D812 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556BED325054C6A00C2D812 /* ViewController.swift */; };
+		D556BED425054C6A00C2D812 /* SlidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556BED325054C6A00C2D812 /* SlidersViewController.swift */; };
 		D556BED725054C6A00C2D812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556BED525054C6A00C2D812 /* Main.storyboard */; };
 		D556BED925054C6C00C2D812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D556BED825054C6C00C2D812 /* Assets.xcassets */; };
 		D556BEDC25054C6C00C2D812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D556BEDA25054C6C00C2D812 /* LaunchScreen.storyboard */; };
+		D556BEE82505705800C2D812 /* NewColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D556BEE72505705800C2D812 /* NewColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D556BECC25054C6A00C2D812 /* colorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D556BECF25054C6A00C2D812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D556BED125054C6A00C2D812 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D556BED325054C6A00C2D812 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D556BED325054C6A00C2D812 /* SlidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersViewController.swift; sourceTree = "<group>"; };
 		D556BED625054C6A00C2D812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D556BED825054C6C00C2D812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D556BEDB25054C6C00C2D812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D556BEDD25054C6C00C2D812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D556BEE72505705800C2D812 /* NewColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				D556BECF25054C6A00C2D812 /* AppDelegate.swift */,
 				D556BED125054C6A00C2D812 /* SceneDelegate.swift */,
-				D556BED325054C6A00C2D812 /* ViewController.swift */,
+				D556BEE72505705800C2D812 /* NewColorView.swift */,
+				D556BED325054C6A00C2D812 /* SlidersViewController.swift */,
 				D556BED525054C6A00C2D812 /* Main.storyboard */,
 				D556BED825054C6C00C2D812 /* Assets.xcassets */,
 				D556BEDA25054C6C00C2D812 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D556BED425054C6A00C2D812 /* ViewController.swift in Sources */,
+				D556BED425054C6A00C2D812 /* SlidersViewController.swift in Sources */,
 				D556BED025054C6A00C2D812 /* AppDelegate.swift in Sources */,
 				D556BED225054C6A00C2D812 /* SceneDelegate.swift in Sources */,
+				D556BEE82505705800C2D812 /* NewColorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = colorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = colorApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
